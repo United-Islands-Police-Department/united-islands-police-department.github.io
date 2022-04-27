@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://uipd.tech/images/logo_pd.png">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+    <title>Eisbärs PD Utils</title>
+</head>
+<body>
+    <div class="hero-container">
+        <div class="hero-logo">
+            <a href=""><img class="hero-logo-img" src="pdbanneridk.png"></a>
+        </div>
+    </div>
+
+    <h1 id="linkcontainerh">Links</h1>
+    <div class="links-container" id="linkcontainer">
+        <div class="flexchild alllinks" id="allglinks">
+            <h3>Allgemeine Links</h3>
+            <ul class="links-list">
+                <li><a href="#">PD Dokument</a></li>
+                <li><a href="#">PD Administrative</a></li>
+                <li><a href="#">Bußgeldrechner</a></li>
+                <li><a href="#">Gesetzbuch</a></li>
+            </ul>
+        </div>
+        <div class="flexchild testlinks" id="testlinks">
+            <h3>Ausbildungs Links</h3>
+            <ul class="links-list">
+                <li><a href="#">Bewerbungsformular</a> | <a href="#">Ansicht</a></li>
+                <li><a href="#">Ausbildungsplan</a></li>
+                <li><a href="#">Anwärter Test</a> | <a href="#">Korrektur</a></li>
+                <li><a href="#">Meister Test</a> | <a href="#">Korrektur</a></li>
+            </ul>
+        </div>
+    </div>
+    <button id="linkbutton">Einklappen</button>
+    
+    <a href="menschenersteller.html" class="personensucheatag"><h1 class="personensucheh1" id="personensucheh1">Personensuche</h1></a>
+    <div class="personensuche-container">
+        <div class="search-wrapper">
+            <label for="search">Search Users</label>
+            <input type="search" id="search" data-search>
+          </div>
+          <div class="user-cards" data-user-cards-container></div>
+          
+          <template data-user-template>
+            <div class="card">
+              <div class="header" data-header></div>
+              <div class="body" data-body></div>
+              <div class="haartyp" data-haartyp></div>
+              <div class="haarfarbe" data-haarfarbe></div>
+              <img src="" width="100px" height="100px" data-image>
+            </div>
+          </template>
+    </div>
+</body>
+</html>
