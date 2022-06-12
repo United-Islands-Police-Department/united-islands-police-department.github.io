@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://uipd.tech/images/logo_pd.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Aktenersteller</title>
+</head>
+<body>
+    <div class="hero-container">
+        <div class="hero-logo">
+            <a href="../"><img class="hero-logo-img" src="../pdbanneridk.png"></a>
+        </div>
+    </div>
+    <h1 id="linkcontainerh">Aktenersteller</h1>
+    <div class="aktenersteller-container">
+        <div class="aktenersteller-name" id="aktenersteller-name">
+            <div class="dropdown">
+                <input type="text" id="aktenerstellername-input" placeholder="Name">
+                <div class="dropdown-content" id="dropdown-content">
+                    <button style="color: red;" onclick='setuser("", "", "")'>Reset</button>
+                </div>
+              </div>
+        </div>
+        <div class="aktenersteller-geburt" id="aktenersteller-geburt">
+            <div class="dropdown">
+                <input type="text" id="aktenerstellergeburt-input" placeholder="Geburtsdatum">
+              </div>
+        </div>
+        <div class="aktenersteller-geburt" id="aktenersteller-personummer">
+            <div class="dropdown">
+                <input type="text" id="aktenerstellerpersonummer-input" placeholder="Personummer">
+            </div>
+        </div>
+        <template button-template>
+            <div>
+                <button data-uffffff></button>
+            </div>
+        </template>
+    </div>
+    <h2>Strafe</h2>
+    <div id="paraszumkopieren" class="paraszumkopieren"></div>
+    <div class="totales">
+        <div class="totalehes">
+            Totale HEs
+            <div id="totalehes">0</div>
+        </div>
+        <div class="totalerarrest">
+            Totaler Arrest
+        <div id="totalerarrest">0</div>
+        </div>
+        <div class="bussgeldmin">
+            Mindeste Bussgeld
+            <div id="bussgeldmin">0</div>
+        </div>
+        <div class="bussgeldmax">
+            Maximales Bussgeld
+            <div id="bussgeldmax">0</div>
+        </div>
+    </div>
+
+    <div class="strafen-container">
+        <div class="dropdown">
+            <input type="text" id="strafeninput" placeholder="Strafe">
+            <div class="dropdown-content" id="strafen-dropdown-content">
+                <button style="color: red;" onclick='reset()'>Reset</button>
+            </div>
+        </div>
+
+        <template strafen-button-template>
+            <div>
+                <button data-strafen-button></button>
+            </div>
+        </template>
+    </div>
+
+    <div class="strafen" id="strafen">
+        <template data-strafen-template>
+            <div class="card">
+              <div class="header" data-header></div>
+              <div class="body" data-hes></div>
+              <div class="haartyp" data-bussgeldmin></div>
+              <div class="haarfarbe" data-bussgeldmax></div>
+            </div>
+        </template>
+    </div>
+</body>
+</html>

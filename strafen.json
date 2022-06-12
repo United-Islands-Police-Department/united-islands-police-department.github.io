@@ -1,0 +1,762 @@
+[
+    {
+        "id" : 1,
+        "name" : "Diebstahl",
+        "para": "StGB §8",
+        "paraeinf": "§8",
+        "hes" : 0,
+        "arrest" : 30,
+        "bussgeldmin": 250,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 2,
+        "name" : "Raub",
+        "para": "StGB §9",
+        "paraeinf": "§9",
+        "hes" : 2,
+        "arrest" : 0,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 7000
+    },
+    {
+        "id" : 3,
+        "name" : "Sachbeschädigung",
+        "para": "StGB §10",
+        "paraeinf": "§10",
+        "hes" : 0,
+        "arrest" : 20,
+        "bussgeldmin": 200,
+        "bussgeldmax" : 800 
+    },
+    {
+        "id" : 4,
+        "name" : "Erpressung",
+        "para": "StGB §11",
+        "paraeinf": "§11",
+        "hes" : 1,
+        "arrest" : 45,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 1200
+    },
+    {
+        "id" : 5,
+        "name" : "Betrug",
+        "para": "StGB §12",
+        "paraeinf": "§12",
+        "hes" : 0,
+        "arrest" : 30,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 1000 
+    },
+    {
+        "id" : 6,
+        "name" : "Wirtschaftsbetrug",
+        "para": "StGB §12a",
+        "paraeinf": "§12a",
+        "hes" : 0,
+        "arrest" : 0,
+        "bussgeldmin": 0,
+        "bussgeldmax" : 0 
+    },
+    {
+        "id" : 7,
+        "name" : "Beleidigung",
+        "para": "StGB §13",
+        "paraeinf": "§13",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 100,
+        "bussgeldmax" : 500 
+    },
+    {
+        "id" : 8,
+        "name" : "Üble Nachrede",
+        "para": "StGB §14",
+        "paraeinf": "§14",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 100,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 9,
+        "name" : "Persönlichkeitsrechtsverletzung",
+        "para": "StGB §14a",
+        "paraeinf": "§14a",
+        "hes" : 2,
+        "arrest" : 10,
+        "bussgeldmin": 100,
+        "bussgeldmax" : 2500
+    },
+    {
+        "id" : 10,
+        "name" : "Drohung",
+        "para": "StGB §15",
+        "paraeinf": "§15",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 100,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 11,
+        "name" : "Hausfriedensbruch",
+        "para": "StGB §16",
+        "paraeinf": "§16",
+        "hes" : 1,
+        "arrest" : 10,
+        "bussgeldmin": 100,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 12,
+        "name" : "Freiheitsstrafe",
+        "para": "StGB §17",
+        "paraeinf": "§17",
+        "hes" : 1,
+        "arrest" : 20,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 100
+    },
+    {
+        "id" : 13,
+        "name" : "Geiselnahme",
+        "para": "StGB §18",
+        "paraeinf": "§18",
+        "hes" : 3,
+        "arrest" : 0,
+        "bussgeldmin": 10000,
+        "bussgeldmax" : 20000
+    },
+    {
+        "id" : 14,
+        "name" : "Urkundenfälschung",
+        "para": "StGB §19",
+        "paraeinf": "§19",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 100,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 15,
+        "name" : "Widerstand gegen Vollstreckungsbeamte",
+        "para": "StGB §20",
+        "paraeinf": "§20",
+        "hes" : 0,
+        "arrest" : 15,
+        "bussgeldmin": 200,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 16,
+        "name" : "Amtsanmaßung",
+        "para": "StGB §21",
+        "paraeinf": "§21",
+        "hes" : 0,
+        "arrest" : 5,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 100
+    },
+    {
+        "id" : 17,
+        "name" : "Notrufmissbrauch",
+        "para": "StGB §22",
+        "paraeinf": "§22",
+        "hes" : 0,
+        "arrest" : 5,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 100
+    },
+    {
+        "id" : 18,
+        "name" : "Fahrerflucht",
+        "para": "StGB §23",
+        "paraeinf": "§23",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 200,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 19,
+        "name" : "Vermummungsverbot",
+        "para": "StGB §24",
+        "paraeinf": "§24",
+        "hes" : 0,
+        "arrest" : 5,
+        "bussgeldmin": 10,
+        "bussgeldmax" : 100
+    },
+    {
+        "id" : 20,
+        "name" : "Illegale Gegenstände",
+        "para": "StGB §25",
+        "paraeinf": "§25",
+        "hes" : 2,
+        "arrest" : 0,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 10000
+    },
+    {
+        "id" : 21,
+        "name" : "Sperrzonen",
+        "para": "StGB §26",
+        "paraeinf": "§26",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 20,
+        "bussgeldmax" : 100
+    },
+    {
+        "id" : 22,
+        "name" : "Identitätsfeststellung",
+        "para": "StGB §27",
+        "paraeinf": "§27",
+        "hes" : 10000000000000,
+        "arrest" : 0,
+        "bussgeldmin": 0,
+        "bussgeldmax" : 0
+    },
+    {
+        "id" : 23,
+        "name" : "Vortäuschung einer Straftat",
+        "para": "StGB §28",
+        "paraeinf": "§28",
+        "hes" : 0,
+        "arrest" : 15,
+        "bussgeldmin": 250,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 24,
+        "name" : "Entzug Fahrerlaubnis",
+        "para": "StGB §30",
+        "paraeinf": "§30",
+        "hes" : 0,
+        "arrest" : 25,
+        "bussgeldmin": 250,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 25,
+        "name" : "Tierquälerei",
+        "para": "StGB §32",
+        "paraeinf": "§32",
+        "hes" : 0,
+        "arrest" : 15,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 1000
+    },
+    {
+        "id" : 26,
+        "name" : "Kriminelle Vereinigung",
+        "para": "StGB §33",
+        "paraeinf": "§33",
+        "hes" : 1,
+        "arrest" : 30,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 1500
+    },
+    {
+        "id" : 27,
+        "name" : "Bewaffnete Gruppen",
+        "para": "StGB §34",
+        "paraeinf": "§34",
+        "hes" : 1,
+        "arrest" : 30,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 1500
+    },
+    {
+        "id" : 28,
+        "name" : "Sexuelle Belästigung",
+        "para": "StGB §35",
+        "paraeinf": "§35",
+        "hes" : 0,
+        "arrest" : 15,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 1000
+    },
+    {
+        "id" : 29,
+        "name" : "Gefangenenbefreiung",
+        "para": "StGB §36",
+        "paraeinf": "§36",
+        "hes" : 1,
+        "arrest" : 15,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 1000
+    },
+    {
+        "id" : 30,
+        "name" : "Meineid",
+        "para": "StGB §37",
+        "paraeinf": "§37",
+        "hes" : 5,
+        "arrest" : 0,
+        "bussgeldmin": 15000,
+        "bussgeldmax" : 30000
+    },
+    {
+        "id" : 31,
+        "name" : "Glücksspiel",
+        "para": "StGB §38",
+        "paraeinf": "§38",
+        "hes" : 0,
+        "arrest" : 15,
+        "bussgeldmin": 250,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 32,
+        "name" : "Körperverletzung",
+        "para": "StGB §39",
+        "paraeinf": "§39",
+        "hes" : 2,
+        "arrest" : 0,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 5000
+    },
+    {
+        "id" : 33,
+        "name" : "Schwere Körperverletzung",
+        "para": "StGB §40",
+        "paraeinf": "§40",
+        "hes" : 4,
+        "arrest" : 0,
+        "bussgeldmin": 5000,
+        "bussgeldmax" : 10000
+    },
+    {
+        "id" : 34,
+        "name" : "Mord",
+        "para": "StGB §41",
+        "paraeinf": "§41",
+        "hes" : 100000000000000000,
+        "arrest" : 0,
+        "bussgeldmin": 0,
+        "bussgeldmax" : 0
+    },
+    {
+        "id" : 35,
+        "name" : "Totschlag",
+        "para": "StGB §42",
+        "paraeinf": "§43",
+        "hes" : 15,
+        "arrest" : 0,
+        "bussgeldmin": 0,
+        "bussgeldmax" : 0
+    },
+    {
+        "id" : 36,
+        "name" : "Unterlassene Hilfeleistung",
+        "para": "StGB §43",
+        "paraeinf": "§43",
+        "hes" : 1,
+        "arrest" : 0,
+        "bussgeldmin": 1500,
+        "bussgeldmax" : 5000
+    },
+    {
+        "id" : 37,
+        "name" : "Ruhestörung",
+        "para": "StGB §44",
+        "paraeinf": "§44",
+        "hes" : 0,
+        "arrest" : 0,
+        "bussgeldmin": 3500,
+        "bussgeldmax" : 3500
+    },
+    {
+        "id" : 38,
+        "name" : "Falschaussage",
+        "para": "StGB §45",
+        "paraeinf": "§45",
+        "hes" : 4,
+        "arrest" : 0,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 5000
+    },
+    {
+        "id" : 39,
+        "name" : "Belästigung",
+        "para": "StGB §46",
+        "paraeinf": "§46",
+        "hes" : 1,
+        "arrest" : 10,
+        "bussgeldmin": 100,
+        "bussgeldmax" : 1000
+    },
+    {
+        "id" : 40,
+        "name" : "Entziehung polizeilicher Maßnahmen",
+        "para": "StGB §47",
+        "paraeinf": "§47",
+        "hes" : 1,
+        "arrest" : 0,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 2500
+    },
+    {
+        "id" : 41,
+        "name" : "Eigenbedarf (0-30)",
+        "para": "BtMG §2 (0-30)",
+        "paraeinf": "§2 (0-30)",
+        "hes" : 1,
+        "arrest" : 30,
+        "bussgeldmin": 1500,
+        "bussgeldmax" : 5000
+    },
+    {
+        "id" : 42,
+        "name" : "Eigenbedarf (31-60)",
+        "para": "BtMG §2 (31-60)",
+        "paraeinf": "§2 (31-60)",
+        "hes" : 2,
+        "arrest" : 0,
+        "bussgeldmin": 5000,
+        "bussgeldmax" : 10000
+    },
+    {
+        "id" : 43,
+        "name" : "Eigenbedarf (60+)",
+        "para": "BtMG §2 (60+)",
+        "paraeinf": "§2 (60+)",
+        "hes" : 5,
+        "arrest" : 0,
+        "bussgeldmin": 10000,
+        "bussgeldmax" : 20000
+    },
+    {
+        "id" : 44,
+        "name" : "Herstellen/Verarbeiten",
+        "para": "BtMG §3",
+        "paraeinf": "§3",
+        "hes" : 1,
+        "arrest" : 0,
+        "bussgeldmin": 1500,
+        "bussgeldmax" : 5000
+    },
+    {
+        "id" : 45,
+        "name" : "Drogen als illegale Substanzen (Besitz)",
+        "para": "BtMG §5.3",
+        "paraeinf": "§5.3",
+        "hes" : 2,
+        "arrest" : 0,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 10000
+    },
+    {
+        "id" : 46,
+        "name" : "Drogen als illegale Substanzen (Herstellung)",
+        "para": "BtMG §5.4",
+        "paraeinf": "§5.4",
+        "hes" : 5,
+        "arrest" : 0,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 20000
+    },
+    {
+        "id" : 47,
+        "name" : "Gefährlicher Eingriff Straßenverkehr",
+        "para": "StVO §3",
+        "paraeinf": "§3",
+        "hes" : 0,
+        "arrest" : 15,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 2500 
+    },
+    {
+        "id" : 48,
+        "name" : "Autobahn Abs. 1",
+        "para": "StVO §5.1",
+        "paraeinf": "§5.1",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 49,
+        "name" : "Autobahn Abs. 2",
+        "para": "StVO §5.2",
+        "paraeinf": "§5.2",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500 
+    },
+    {
+        "id" : 50,
+        "name" : "Autobahn Abs. 3",
+        "para": "StVO §5.3",
+        "paraeinf": "§5.3",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500 
+    },
+    {
+        "id" : 51,
+        "name" : "Autobahn Abs. 4",
+        "para": "StVO §5.4",
+        "paraeinf": "§5.4",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500 
+    },
+    {
+        "id" : 52,
+        "name" : "Autobahn Abs. 5",
+        "para": "StVO §5.5",
+        "paraeinf": "§5.5",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500 
+    },
+    {
+        "id" : 53,
+        "name" : "Autobahn Abs. 6",
+        "para": "StVO §5.6",
+        "paraeinf": "§5.6",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500 
+    },
+    {
+        "id" : 54,
+        "name" : "Autobahn Abs. 7",
+        "para": "StVO §5.7",
+        "paraeinf": "§5.7",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500 
+    },
+    {
+        "id" : 55,
+        "name" : "Geschwindigkeit 10 KM/H",
+        "para": "StVO §6",
+        "paraeinf": "§6",
+        "hes" : 0,
+        "arrest" : 15,
+        "bussgeldmin": 100,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 56,
+        "name" : "Geschwindigkeit 20 KM/H",
+        "para": "StVO §6",
+        "paraeinf": "§6",
+        "hes" : 0,
+        "arrest" : 15,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 1000
+    },
+    {
+        "id" : 57,
+        "name" : "Geschwindigkeit 40 KM/H",
+        "para": "StVO §6",
+        "paraeinf": "§6",
+        "hes" : 1,
+        "arrest" : 30,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 1500
+    },
+    {
+        "id" : 58,
+        "name" : "Geschwindigkeit 60 KM/H",
+        "para": "StVO §6",
+        "paraeinf": "§6",
+        "hes" : 2,
+        "arrest" : 0,
+        "bussgeldmin": 1500,
+        "bussgeldmax" : 2000
+    },
+    {
+        "id" : 59,
+        "name" : "Verkehrszeichen",
+        "para": "StVO §7",
+        "paraeinf": "§7",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 60,
+        "name" : "Überholen",
+        "para": "StVO §8",
+        "paraeinf": "§8",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 61,
+        "name" : "Vorfahrt",
+        "para": "StVO §9",
+        "paraeinf": "§9",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 62,
+        "name" : "Halten und Parken",
+        "para": "StVO §10",
+        "paraeinf": "§10",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 63,
+        "name" : "Warnzeichen",
+        "para": "StVO §11",
+        "paraeinf": "§11",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 64,
+        "name" : "Fahren unter Einfluss berauschender Mittel",
+        "para": "StVO §12",
+        "paraeinf": "§12",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 65,
+        "name" : "Unfall",
+        "para": "StVO §14",
+        "paraeinf": "§14",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 66,
+        "name" : "Gewerblicher Verkehr",
+        "para": "StVO §16",
+        "paraeinf": "§16",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 50,
+        "bussgeldmax" : 500
+    },
+    {
+        "id" : 67,
+        "name" : "Fahren ohne Fahrerlaubnis",
+        "para": "StVO §18",
+        "paraeinf": "§18",
+        "hes" : 1,
+        "arrest" : 20,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 1500
+    },
+    {
+        "id" : 68,
+        "name" : "Waffenhandel",
+        "para": "WaffG §2",
+        "paraeinf": "§2",
+        "hes" : 2,
+        "arrest" : 30,
+        "bussgeldmin": 2500,
+        "bussgeldmax" : 5000
+    },
+    {
+        "id" : 69,
+        "name" : "Waffenbesitz Abs. 1",
+        "para": "WaffG §3.1",
+        "paraeinf": "§3.1",
+        "hes" : 1,
+        "arrest" : 20,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 1500
+    },
+    {
+        "id" : 70,
+        "name" : "Waffenbesitz Abs. 2",
+        "para": "WaffG §3.2",
+        "paraeinf": "§3.2",
+        "hes" : 3,
+        "arrest" : 0,
+        "bussgeldmin": 2000,
+        "bussgeldmax" : 6000
+    },
+    {
+        "id" : 71,
+        "name" : "Waffenbesitz Abs. 3",
+        "para": "WaffG §3.3",
+        "paraeinf": "§3.3",
+        "hes" : 1,
+        "arrest" : 30,
+        "bussgeldmin": 1000,
+        "bussgeldmax" : 1500
+    },
+    {
+        "id" : 72,
+        "name" : "Nutzung Abs. 1",
+        "para": "WaffG §4.1",
+        "paraeinf": "§4.1",
+        "hes" : 1,
+        "arrest" : 20,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 1500
+    },
+    {
+        "id" : 73,
+        "name" : "Nutzung Abs. 2",
+        "para": "WaffG §4.2",
+        "paraeinf": "§4.2",
+        "hes" : 1,
+        "arrest" : 20,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 1500
+    },
+    {
+        "id" : 74,
+        "name" : "Nutzung Abs. 3",
+        "para": "WaffG §4.3",
+        "paraeinf": "§4.3",
+        "hes" : 2,
+        "arrest" : 0,
+        "bussgeldmin": 2000,
+        "bussgeldmax" : 6000
+    },
+    {
+        "id" : 74,
+        "name" : "Zweckentfremdung",
+        "para": "WaffG §5",
+        "paraeinf": "§5",
+        "hes" : 0,
+        "arrest" : 10,
+        "bussgeldmin": 500,
+        "bussgeldmax" : 1500
+    },
+    {
+        "id" : 75,
+        "name" : "Verträge",
+        "para": "GewO §6",
+        "paraeinf": "§6",
+        "hes" : 2,
+        "arrest" : 0,
+        "bussgeldmin": 0,
+        "bussgeldmax" : 0
+    }
+]

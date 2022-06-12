@@ -75,41 +75,6 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-//fetch("https://jsonplaceholder.typicode.com/users")
-//  .then(res => res.json())
-//  .then(data => {
-//    users = data.map(user => {
-//      const card = userCardTemplate.content.cloneNode(true).children[0]
-//      const header = card.querySelector("[data-header]")
-//      const body = card.querySelector("[data-body]")
-//      header.textContent = user.name
-//      body.textContent = user.email
-//      userCardContainer.append(card)
-//      return { name: user.name, email: user.email, element: card }
-//    })
-//})
-
-var json = [{
-  "id" : "1",
-  "name" : "Leanne Graham",
-  "email" : "Sincere@april.biz",
-  "msg"   : "hi",
-  "tid" : "2013-05-05 23:35",
-  "fromWho": "hello1@email.se"
-},
-{
-  "id" : "2",
-  "name" : "Ervin Howell",
-  "email" : "Shanna@melissa.tv",
-  "msg"   : "there",
-  "tid" : "2013-05-05 23:45",
-  "fromWho": "hello2@email.se"
-}];
-
-json.forEach(function(obj){
-  console.log(obj.id)}
-)
-
 fetch("menschen.json")
   .then(res => res.json())
   .then(data => {
@@ -129,3 +94,13 @@ fetch("menschen.json")
       return { name: user.name, personummer: user.personummer, haartyp: user.haartyp, haarfarbe: user.haarfarbe, element: card }
     })
 })
+
+const atagstest = document.getElementsByClassName("atest")
+
+for(var i = 0; i < atagstest.length; i++) {
+  (function(index) {
+    atagstest[index].addEventListener("click", function() {
+       navigator.clipboard.writeText(atagstest[index].href);
+     })
+  })(i);
+}
