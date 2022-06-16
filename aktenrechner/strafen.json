@@ -681,7 +681,7 @@
     },
     {
         "id" : 69,
-        "name" : "Waffenbesitz Abs. 1",
+        "name" : "Waffenbesitz Abs. 1 (Besitz ohne Waffenschein)",
         "para": "WaffG §3.1",
         "paraeinf": "§3.1",
         "hes" : 1,
@@ -691,7 +691,7 @@
     },
     {
         "id" : 70,
-        "name" : "Waffenbesitz Abs. 2",
+        "name" : "Waffenbesitz Abs. 2 (Besitz illegaler Waffen)",
         "para": "WaffG §3.2",
         "paraeinf": "§3.2",
         "hes" : 3,
@@ -701,7 +701,7 @@
     },
     {
         "id" : 71,
-        "name" : "Waffenbesitz Abs. 3",
+        "name" : "Waffenbesitz Abs. 3 (Verstoß gegen Waffensperre)",
         "para": "WaffG §3.3",
         "paraeinf": "§3.3",
         "hes" : 1,
@@ -711,7 +711,7 @@
     },
     {
         "id" : 72,
-        "name" : "Nutzung Abs. 1",
+        "name" : "Nutzung Abs. 1 (Offen tragen)",
         "para": "WaffG §4.1",
         "paraeinf": "§4.1",
         "hes" : 1,
@@ -721,7 +721,7 @@
     },
     {
         "id" : 73,
-        "name" : "Nutzung Abs. 2",
+        "name" : "Nutzung Abs. 2 (Nutzung)",
         "para": "WaffG §4.2",
         "paraeinf": "§4.2",
         "hes" : 1,
@@ -731,7 +731,7 @@
     },
     {
         "id" : 74,
-        "name" : "Nutzung Abs. 3",
+        "name" : "Nutzung Abs. 3 (Fahrlässige Nutzung)",
         "para": "WaffG §4.3",
         "paraeinf": "§4.3",
         "hes" : 2,
