@@ -165,3 +165,8 @@ input {
     color: white;
     cursor: pointer;
 }
+
+#unlocker {
+    background-color: #161514;
+    border-color: #161514;
+}
