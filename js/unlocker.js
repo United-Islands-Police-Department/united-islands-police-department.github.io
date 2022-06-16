@@ -13,9 +13,8 @@ unlocker.addEventListener("input", ev => {
             window.alert("'https://links.uipd.tech/langwaffe' wurde kopiert");
             break;
         }
-        case "langwaffekorrektur": {
-            ForceCopyToClipboard("https://links.uipd.tech/lwkorrektur");
-            window.alert("'https://links.uipd.tech/lwkorrektur' wurde kopiert");
+        case "lwkorrektur": {
+            window.location.href = "https://links.uipd.tech/lwkorrektur"
             break;
         }
     }
