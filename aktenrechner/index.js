@@ -186,7 +186,7 @@ fetch("../menschen.json")
     })
 })
 
-fetch("../strafen.json")
+fetch("strafen.json")
   .then(res => res.json())
   .then(data => {
     strafen = data.map(strafe => {
