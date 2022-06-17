@@ -13,7 +13,7 @@ unlocker.addEventListener("input", ev => {
             break;
         }
         case "lwkorrektur": {
-            window.location.href = "https://links.uipd.tech/lwkorrektur"
+            window.open("https://links.uipd.tech/lwkorrektur", '_blank').focus();
             break;
         }
     }
