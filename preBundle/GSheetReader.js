@@ -3,7 +3,8 @@
 const GSheetReader = require('g-sheets-api')
 const options = {
     apiKey: 'AIzaSyCr7QGCPjlhT3KfMEHVOYW-yeyBeE927_k',
-    sheetId: '1P6eYW6F8Ubo2bzQzbe1Vy50vdvW8mmYZNW_NfqJcgL8'
+    sheetId: '1P6eYW6F8Ubo2bzQzbe1Vy50vdvW8mmYZNW_NfqJcgL8',
+
 }
 
 GSheetReader(

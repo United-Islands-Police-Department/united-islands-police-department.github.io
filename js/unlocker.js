@@ -8,7 +8,6 @@ unlocker.addEventListener("input", ev => {
             break;
         }
         case "langwaffe": {
-            console.log(value)
             ForceCopyToClipboard("https://links.uipd.tech/langwaffe");
             window.alert("'https://links.uipd.tech/langwaffe' wurde kopiert");
             break;

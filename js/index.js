@@ -104,3 +104,17 @@ for(var i = 0; i < atagstest.length; i++) {
      })
   })(i);
 }
+
+const img = document.getElementById('logo')
+var counter = 0;
+
+img.addEventListener("click", ev => {
+    if(counter < 3) {
+        counter++
+        return;
+    }
+    if(counter >= 3) {
+        counter = 0;
+        window.location.href
+    }
+})

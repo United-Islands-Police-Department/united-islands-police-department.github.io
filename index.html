@@ -12,7 +12,7 @@
 <body>
 <div class="hero-container">
     <div class="hero-logo">
-        <a href=""><img class="hero-logo-img" src="idk.png" alt=""></a>
+        <a href=""><img class="hero-logo-img" src="idk.png" alt="" id="logo"></a>
     </div>
     <input type="text" id="unlocker">
 </div>
@@ -66,6 +66,12 @@
 </body>
 <script src="js/unlocker.js"></script>
 <script>
+    var counterNumber = 0;
+
+    document.getElementById("linkcontainerh").addEventListener("click", ev => {
+        counterNumber++
+        if(counterNumber === 3) window.location.href = "https://links.thecompany.social/links"
+    })
 
     function CopyToClipboard(id) {
         var r = document.createRange();
