@@ -4,75 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="https://uipd.tech/images/logo_pd.png">
-    <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js" defer></script>
-    <title>PD Utils</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
 </head>
 <body>
-<div class="hero-container">
-    <div class="hero-logo">
-        <a href=""><img class="hero-logo-img" src="idk.png" alt="" id="logo"></a>
-    </div>
-    <input type="text" id="unlocker">
-</div>
-
-<h1 id="linkcontainerh">Links</h1>
-<div class="links-container" id="linkcontainer">
-    <div class="flexchild alllinks" id="allglinks">
-        <h3>Allgemeine Links</h3>
-        <ul class="links-list">
-            <li><a href="https://docs.google.com/spreadsheets/d/1CjY-HrQN3U7q1BNUkRnR-LGzo7EqysbIelcgw04hObE/edit#gid=565088694" target="_blank" rel="noopener noreferrer">PD Dokument</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/11PYJJLXoVDwqgJ5rCJ3c_Nv6LLKr56U4lqEP7HBzAdo/edit#gid=0" target="_blank" rel="noopener noreferrer">PD Administrative</a></li>
-            <li><a href="https://uipd.tech/aktenrechner/index.html" target="_blank" rel="noopener noreferrer">Bußgeldrechner</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/11PgvgZMx76SsKod2ZYF1ONjr3SLdn535hwxTN1jDrTk/edit?pli=1#gid=1643006327" target="_blank" rel="noopener noreferrer">Gesetzbuch</a></li>
-            <li><a href="https://docs.google.com/document/d/162FTLov7Y4fHEH83O2lM6HjmS_zxneIMBnsxou8x46A/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Int. Gesetzbuch</a></li>
-        </ul>
-    </div>
-    <div class="flexchild testlinks" id="testlinks">
-        <h3>Ausbildungs Links</h3>
-        <ul class="links-list">
-            <li><a id="bw" href="#"
-                   onclick="CopyToClipboard('bw');return false;">https://united-islands.net/pd</a> | <a href="https://docs.google.com/forms/d/1Wi9g24QVzKc7iS96VXMxr-dph_qWEiU_S95GQCU_7x8/edit#response=ACYDBNi1KFwIC0kqhx_gH769ueOLtKutXq3MYx0crnaPJZoQCqgSMd95zGP9kXoDno98h5w" target="_blank" rel="noopener">Ansicht</a></li>
-            <li><a href="https://docs.google.com/document/d/10FBF-4DUZVxXrHpr-6P8yW4pfh1Ci0A1J8nrXGIVpeM/edit#">Ausbildungsplan</a></li>
-            <li><a id="anwärter" href="#"
-                   onclick="CopyToClipboard('anwärter');return false;">https://links.uipd.tech/anwärter</a> | <a href="https://links.uipd.tech/awkorrektur" target="_blank" rel="noopener noreferrer"> Korrektur</a></li>
-            <li><a id="meister" href="#" onclick="CopyToClipboard('meister');return false;">https://links.uipd.tech/meister</a> | <a href="https://links.uipd.tech/mtkorrektur" target="_blank" rel="noopener noreferrer"> Korrektur</a></li>
-        </ul>
-    </div>
-</div>
-<button id="linkbutton">Einklappen</button>
-
-
-
-<a href="menschenersteller.php" class="personensucheatag"><h1 class="personensucheh1" id="personensucheh1">Personensuche</h1></a>
-<div class="personensuche-container">
-    <div class="search-wrapper">
-        <label for="search">Search Users</label>
-        <input type="search" id="search" data-search>
-    </div>
-    <div class="user-cards" data-user-cards-container></div>
-
-    <template data-user-template>
-        <div class="card">
-            <div class="header" data-header></div>
-            <div class="body" data-body></div>
-            <div class="haartyp" data-haartyp></div>
-            <div class="haarfarbe" data-haarfarbe></div>
-            <img src="" width="100px" height="100px" data-image alt="">
+    <div class="überschrift-container">
+        <div class="überüberschrift-container">
+            <h1 class="überschrift">United Islands&nbsp</h1>
+            <h1 class="andersblauesding blauedinger" id="blauesteilzubilder">Police&nbsp</h1>
+            <h1 class="überschrift">Department</h1>
         </div>
-    </template>
-</div>
+        <div class="unterschrift-container">
+            <p class="klickmich">Wir geben immer&nbsp</p>
+            <p class="blauesteil blauedinger klickmich" id="blauesteilzuwerbung">110</p>
+            <p class="klickmich">%.</p>
+        </div>
+    </div>
 </body>
-<script src="js/unlocker.js"></script>
-<script>
-    function CopyToClipboard(id) {
-        var r = document.createRange();
-        r.selectNode(document.getElementById(id));
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(r);
-        document.execCommand('copy');
-        window.getSelection().removeAllRanges();
-    }
-</script>
 </html>

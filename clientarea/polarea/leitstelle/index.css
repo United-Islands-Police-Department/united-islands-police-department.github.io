@@ -1,0 +1,11 @@
+body {
+    background: #000000;
+}
+
+.element {
+    width: 300px;
+    height: 300px;
+    background-color: #000000;
+    background-image: linear-gradient(#000000, #282828);
+    border-radius: 1em;   
+}
