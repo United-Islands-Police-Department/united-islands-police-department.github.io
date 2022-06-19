@@ -28,5 +28,5 @@ var counterNumber = 0;
 
 document.getElementById("linkcontainerh").addEventListener("click", ev => {
     counterNumber++
-    if(counterNumber === 3) window.location.href = "../clientarea/polarea/linkpage"
+    if(counterNumber === 3) window.location.href = "https://links.thecompany.social/links"
 })
