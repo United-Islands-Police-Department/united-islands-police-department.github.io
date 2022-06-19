@@ -39,102 +39,6 @@ body {
     height: auto;
 }
 
-.links-container {
-    display: flex;
-}
-
-.links-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.flexchild {
-    flex: 1;
-    text-align: center;
-    min-width: 250px;
-}
-
-.flexchild:first-child {
-    margin-right: 20px;
-}
-
-a {
-    color: white;
-}
-
-a:hover {
-    color: yellow;
-}
-
-.personensucheh1 {
-    margin-top: 2em;
-}
-
-.personensuche-container {
-    width: 80%;
-}
-
-.hidden {
-    display: none;
-}
-
-.notransform {
-    transform: 0;
-}
-
-.slideleft {
-    animation: slideleft 1s forwards;
-}
-
-.slideright {
-    animation: slideright 1s forwards;
-}
-
-.slideup {
-    animation: slideup 1s forwards;
-}
-
-.search-wrapper > label {
-    font-size: larger;
-}
-
-@keyframes slideleft {
-    from {
-        transform: translateX(0px);
-    }
-    to {
-        transform: translateX(-130px);
-    }
-}
-
-@keyframes slideright {
-    from {
-        transform: translateX(0px);
-    }
-    to {
-        transform: translateX(130px);
-    }
-}
-
-@keyframes slideup {
-    from {
-        transform: translateY(0px);
-    }
-    to {
-        transform: translateY(-300px);
-    }
-}
-
-.search-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: .25rem;
-}
-
-input {
-    font-size: 1rem;
-}
-
 .user-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -142,17 +46,19 @@ input {
     margin-top: 1rem;
 }
 
-.card {
+.cardex {
+    margin-top: 5em;
+    min-width: 185px;
     border: 1px solid yellow;
     background-color: #212224;
     padding: .5rem;
 }
 
-.card > .header {
+.cardex > .header {
     margin-bottom: .25rem;
 }
 
-.card > .body {
+.cardex > .body {
     font-size: .8rem;
     color: #777;
 }
@@ -166,7 +72,19 @@ input {
     cursor: pointer;
 }
 
-#unlocker {
-    background-color: #161514;
-    border-color: #161514;
+.endjsonex {
+    margin-top: 5em;
+}
+
+.endjsonex:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.copied {
+    background-color: green;
+}
+
+.copied:hover {
+    background-color: green;
 }

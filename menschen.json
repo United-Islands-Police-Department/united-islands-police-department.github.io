@@ -1,0 +1,29 @@
+[
+    {
+        "id" : 1,
+        "personummer" : "18742069",
+        "name" : "Knut Eisbär",
+        "birth" : "26.02.2000",
+        "haartyp" : "Glatt mit Welle vorne",
+        "haarfarbe": "Schwarz",
+        "gesichtbild": "https://cdn.discordapp.com/attachments/879068677297819669/886232915762102322/eis.jpg"
+    },
+    {
+        "id" : 2,
+        "personummer" : "917624165",
+        "name" : "Vitali Vladikowski",
+        "birth" : "01.01.2000",
+        "haartyp" : "Baba Locken",
+        "haarfarbe": "Schwarz",
+        "gesichtbild": "https://cdn.discordapp.com/attachments/879068677297819669/886232915762102322/eis.jpg"
+    },
+    {
+        "id" : 3,
+        "personummer" : "123456789",
+        "name" : "Alant Dunglu",
+        "birth" : "02.02.2000",
+        "haartyp" : "Glatte Haare",
+        "haarfarbe": "Schwarz",
+        "gesichtbild": "https://cdn.discordapp.com/attachments/879068677297819669/886232915762102322/eis.jpg"
+    }
+]
